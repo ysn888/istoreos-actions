@@ -25,7 +25,7 @@ on:
    - cron: 0 16 * * *
 
 env:
-  REPO_URL: https://github.com/istoreos/istoreos
+  REPO_URL: https://github.com/ysn888/istoreos
   # REPO_BRANCH: main
   FEEDS_CONF: feeds.conf
   CONFIG_FILE: .config
@@ -49,9 +49,7 @@ jobs:
           # - istoreos-23.05
           - istoreos-24.10
         ARCHITECTURE:
-          - rk33xx-24.10
           - rk35xx-24.10
-          - x86-24.10
         os:
           # - ubuntu-22.04
           - ubuntu-24.04
